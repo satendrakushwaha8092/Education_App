@@ -7,7 +7,7 @@ const app=express()
 app.use(body_parser.json())
 app.use(body_parser.urlencoded({extended:true}))
 
-mongoose.connect('mongodb+srv://Satendrakushwaha:LR42b0N3nw0xCgNl@cluster0.pa1oj.mongodb.net/Ni_Map?authSource=admin&replicaSet=atlas-c5v59u-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true',{
+mongoose.connect('mongodb+srv://Satendrakushwaha:LR42b0N3nw0xCgNl@cluster0.pa1oj.mongodb.net/education_app?authSource=admin&replicaSet=atlas-c5v59u-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true',{
     useNewUrlParser:true
 })
   .then(()=>console.log('mongodb is connected'))
